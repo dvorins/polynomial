@@ -60,9 +60,9 @@ class Sub:
 
 poly1 = Add(Int(2), Mul(X(), Int(3))) # should be 2 + (X * 3)
 print(poly1, "\n")
-
+ 
 poly2 = Sub(Mul(X(), Int(5)), Div(Int(10), X()))
-print(poly2, "\n")
+print(poly2, "\n") 
 
 poly3 = Add(Add(Int(2), Mul(X(), Int(3))), Sub(Mul(X(), X()), Div(X(), Int(2))))
-print(poly3, "\n")
+print(poly3, "\n") 
